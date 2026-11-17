@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cristian Soriano Camelo</title>
+    <meta
+        name="description"
+        content="Cristian Soriano Camelo: geotechnical engineer working on offshore geotechnics, thermal conductivity and data science."
+    >
+
+    <title>Cristian Soriano Camelo | Geotechnical Engineer</title>
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,11 +19,11 @@
 
     <header>
         <nav class="container">
-            <h2>Cristian Soriano Camelo</h2>
+            <a class="logo" href="#home">cysoriano@geodata:~$</a>
 
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
+                <li><a href="#expertise">Expertise</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,57 +32,84 @@
 
     <main>
 
-        <section class="hero">
+        <section id="home" class="hero">
             <div class="container">
-                <p class="subtitle">Geotechnical Engineer and Researcher</p>
 
-                <h1>Offshore geotechnics, data science and thermal properties of soils</h1>
+                <p class="eyebrow">Geotechnical engineering · Data science</p>
 
-                <p>
-                    I work on geotechnical data interpretation and the application
-                    of statistical and machine-learning methods to offshore and
-                    marine geotechnics.
+                <h1>
+                    Engineering insight from
+                    <span>geotechnical data.</span>
+                </h1>
+
+                <p class="introduction">
+                    I am Cristian Soriano Camelo, a geotechnical engineer
+                    working on offshore and marine geotechnics, soil thermal
+                    properties, statistical modelling and machine learning.
                 </p>
 
-                <a class="button" href="#projects">View my projects</a>
+                <div class="actions">
+                    <a class="button primary" href="#projects">
+                        View projects
+                    </a>
+
+                    <a
+                        class="button secondary"
+                        href="https://github.com/cysorianoc"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub profile
+                    </a>
+                </div>
+
             </div>
         </section>
 
         <section id="about" class="section">
-            <div class="container">
-                <h2>About me</h2>
+            <div class="container narrow">
+
+                <p class="section-label">01 / About</p>
+                <h2>Combining engineering and data</h2>
 
                 <p>
-                    I am a geotechnical engineer working at Fugro. My interests
-                    include offshore geotechnics, thermal conductivity of soils,
-                    CPT interpretation, Bayesian statistics and machine learning.
+                    My work focuses on interpreting geotechnical data for
+                    offshore engineering projects. I am particularly interested
+                    in CPT interpretation, soil thermal conductivity, Bayesian
+                    inference, statistics and machine learning.
                 </p>
+
             </div>
         </section>
 
-        <section id="research" class="section alternate">
+        <section id="expertise" class="section alternate">
             <div class="container">
-                <h2>Research interests</h2>
+
+                <p class="section-label">02 / Expertise</p>
+                <h2>Technical interests</h2>
 
                 <div class="cards">
 
                     <article class="card">
+                        <span class="card-number">01</span>
                         <h3>Offshore geotechnics</h3>
                         <p>
                             Interpretation of laboratory and in-situ data for
-                            offshore engineering projects.
+                            offshore and marine engineering applications.
                         </p>
                     </article>
 
                     <article class="card">
+                        <span class="card-number">02</span>
                         <h3>Thermal properties</h3>
                         <p>
-                            Analysis of soil thermal conductivity using laboratory
-                            testing, T-CPT and heat-flow measurements.
+                            Analysis of soil thermal conductivity using
+                            laboratory testing, T-CPT and heat-flow measurements.
                         </p>
                     </article>
 
                     <article class="card">
+                        <span class="card-number">03</span>
                         <h3>Data science</h3>
                         <p>
                             Application of Bayesian inference, statistics and
@@ -91,44 +123,57 @@
 
         <section id="projects" class="section">
             <div class="container">
-                <h2>Selected projects</h2>
 
-                <div class="project">
-                    <h3>Thermal conductivity interpretation</h3>
-                    <p>
-                        Development and comparison of data-driven correlations
-                        for estimating soil thermal conductivity.
-                    </p>
+                <p class="section-label">03 / Projects</p>
+                <h2>Selected work</h2>
 
-                    <a href="#">Project details →</a>
-                </div>
+                <div class="project-grid">
 
-                <div class="project">
-                    <h3>ShareWind</h3>
-                    <p>
-                        Research related to offshore wind and geotechnical
-                        engineering.
-                    </p>
+                    <article class="project">
+                        <p class="project-type">Data analysis</p>
+                        <h3>Thermal conductivity interpretation</h3>
+                        <p>
+                            Development and evaluation of data-driven
+                            correlations for estimating soil thermal
+                            conductivity.
+                        </p>
+                        <a href="#">Project details →</a>
+                    </article>
 
-                    <a href="#">Project details →</a>
+                    <article class="project">
+                        <p class="project-type">Research</p>
+                        <h3>ShareWind</h3>
+                        <p>
+                            Research related to offshore wind energy and
+                            geotechnical engineering.
+                        </p>
+                        <a href="#">Project details →</a>
+                    </article>
+
                 </div>
             </div>
         </section>
 
         <section id="contact" class="section alternate">
-            <div class="container">
-                <h2>Contact</h2>
+            <div class="container narrow">
+
+                <p class="section-label">04 / Contact</p>
+                <h2>Let us connect</h2>
 
                 <p>
-                    You can find my work and projects on GitHub.
+                    Explore my repositories and current technical projects
+                    through my GitHub profile.
                 </p>
 
-                <a class="button"
-                   href="https://github.com/cysorianoc"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Visit my GitHub
+                <a
+                    class="button primary"
+                    href="https://github.com/cysorianoc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Open GitHub
                 </a>
+
             </div>
         </section>
 
